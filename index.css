@@ -1,7 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
 #calculator{
     border: 3px solid rgb(184, 178, 178);
-    border-radius: 5px;
+    border-radius: 15px;
     width: 300px;
+    background: #f5f5f5; /* Optional: light background */
 }
 #display{
     border: 3px solid rgb(184, 178, 178);
@@ -9,6 +19,7 @@
     height: 50px;
     font-size: 48px;
     margin: 10px 0px 10px 23px;
+    border-radius: 10px;
     /* padding: 10px 10px 10px 10px; */
     
 }

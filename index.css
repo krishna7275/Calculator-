@@ -4,6 +4,7 @@
     width: 300px;
 }
 #display{
+    border: 3px solid rgb(184, 178, 178);
     width: 80%;
     height: 50px;
     font-size: 48px;
@@ -25,4 +26,11 @@
     border: none;
     background-color: rgb(184, 178, 178);
     color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #b929b4;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
